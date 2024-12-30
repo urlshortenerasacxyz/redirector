@@ -8,6 +8,8 @@ public class UrlData implements Serializable {
     private String originalUrl;
     private long expirationTime;
 
+    public UrlData() {}
+
     public UrlData(String originalUrl, long expirationTime) {
         this.originalUrl = originalUrl;
         this.expirationTime = expirationTime;
